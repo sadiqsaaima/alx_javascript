@@ -1,6 +1,4 @@
 #!/usr/bin/node
-
-function add (a, b) {
-  console.log(parseInt(a) + parseInt(b));
-}
-add(process.argv[2], process.argv[3]);
+exports.add = function (num1, num2) {
+  return (num1 + num2);
+};
