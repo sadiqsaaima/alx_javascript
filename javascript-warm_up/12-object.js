@@ -1,8 +1,9 @@
-const favlang = ["C is fun", "Python is cool", "JavaScript is amazing"];
+#!/usr/bin/node
 
-for (let i = 0; i < favlang.length; i++) {
-  if (favlang[i].includes('12')) {
-    favlang[i] = favlang[i].replace('12', '89');
-  }
-  console.log(favlang[i]);
-}
+const myObject = {
+  type: 'object',
+  value: 12
+};
+console.log(myObject);
+myObject.value = 89;
+console.log(myObject);
