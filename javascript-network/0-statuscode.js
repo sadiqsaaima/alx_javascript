@@ -4,7 +4,7 @@ onst request = require('request');
 const url = process.argv[2];
 
 if (!url) {
-  console.log('Usage: node get_status_code.js <URL>');
+  console.log('code: <status code>');
   process.exit(1);
 }
 
